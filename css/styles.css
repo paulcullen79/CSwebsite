@@ -1,0 +1,181 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #fff;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+/* header, main-content and footer containers */
+.container {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* HEADER */
+#header-nav {
+  background-image: url("../css/images/peaceful-life-of-a-girl-org copy.jpg");
+  background-repeat: no-repeat;
+  border-radius: 0;
+  border: 0;
+  height: 500px;
+}
+
+
+
+
+#nav-brand {
+  padding-left: 0px;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+  margin-left: 0px;
+}
+#nav-list {
+  margin-right: -30px;
+}
+#nav-list a {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+#nav-list a:hover {
+  color: #fff;
+  text-shadow: 1px 1px 1px white;
+}
+
+.navbar-toggle {
+  border: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+#banner p {
+  color: rgb(189, 184, 184);
+  text-align: center;
+  margin-top: 120px;
+  font-size: 1.2em;
+}
+
+/* main content */
+.container h1 {
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.container h2 {
+  margin-bottom: 30px;
+  color: rgb(110, 108, 108);
+  font-size: 1.3em;
+}
+
+.section {
+  margin-bottom: 60px;
+}
+#hours, #address, #contact {
+  line-height: 1.8;
+  font-weight: 100;
+  padding-bottom: 40px;
+  /* font-family: sans-serif; */
+}
+#hours > span, #address > span, #contact > span{
+  font-size: 1.2em;
+  /* text-decoration: underline; */
+}
+
+p {
+  margin-bottom: 20px;
+} 
+
+#footer {
+  background-color: rgb(185, 183, 183);
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.row {
+
+}
+div.credits {
+  padding-top: 30px;
+}
+.credits ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 0.8em;
+  
+}
+.credits a {
+  color: inherit;
+}
+hr {
+  border-top: 1px solid rgb(206, 202, 202);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.row {
+  text-align: center;
+}
+
+
+/********************** Media Queries **************************/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+    /* margin-right: 15px;
+    padding-right: 10px; */
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+  } 
+  
+  
+ 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+  #nav-brand {
+    padding-left: 15px;
+  }
+  #banner p {
+    font-size: 1em;
+  }
+  hr {
+    width: 70%
+  }
+  .row {
+    text-align: center;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  
+}
