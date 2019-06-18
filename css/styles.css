@@ -23,6 +23,15 @@ body {
   height: 500px;
 }
 
+#header-nav-about {
+  /* background-image: url("../css/images/counselor-listens-to-client.jpg");
+  background-repeat: no-repeat; */
+  background-color: rgba(65, 67, 73, 0.856);
+  border-radius: 0;
+  border: 0;
+  height: auto;
+}
+
 
 
 
@@ -64,6 +73,17 @@ body {
 }
 
 /* main content */
+#profile-pic {
+  position: relative;
+  /* float: right; */
+  max-width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
 .container h1 {
   font-weight: 800;
   margin-bottom: 50px;
@@ -98,9 +118,7 @@ p {
   margin-top: 30px;
   padding-top: 20px;
 }
-.row {
 
-}
 div.credits {
   padding-top: 30px;
 }
@@ -169,6 +187,10 @@ hr {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    /* #profile-pic {
+      max-width: 100%;
+      height: auto;
+    } */
 }
 
 /********** Extra small devices only **********/
@@ -194,5 +216,23 @@ hr {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+  /* #banner p {
+    font-size: 0.5em;
+  } */
+  #nav-brand.navbar-brand {
+    width: 200px;
+    height: 70px;
+  }
+ 
+  .container h1 {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .container h2 {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
   
 }
